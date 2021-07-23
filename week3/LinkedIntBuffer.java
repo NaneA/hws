@@ -9,7 +9,7 @@ public class LinkedIntBuffer extends IntBuffer {
         return next;
     }
 
-    public void setNext(){
+    public void setNext(LinkedIntBuffer next){
         this.next = next;
         this.counter++;
     }
