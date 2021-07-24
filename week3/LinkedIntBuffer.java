@@ -19,7 +19,7 @@ public class LinkedIntBuffer extends IntBuffer {
 
        for(int i = 0; i<counter; i++)
        {
-           System.out.println(cur.getValue() + "");
+           System.out.println(cur.getValue() + "->");
            cur = cur.getNext();
        }
 
