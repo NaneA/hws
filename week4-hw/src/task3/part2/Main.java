@@ -1,4 +1,4 @@
-package task3;
+package task3.part2;
 
 import java.util.Scanner;
 
@@ -13,7 +13,5 @@ public class Main {
         else if(val == 2){
             new SlowClock().start();
         }
-
-
     }
 }

@@ -1,6 +1,4 @@
-package task3;
-
-import java.util.Scanner;
+package task3.part2;
 
 public class FastClock implements Clock{
     private double time=0;

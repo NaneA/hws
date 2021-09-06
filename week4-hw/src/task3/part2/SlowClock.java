@@ -1,6 +1,8 @@
-package task3;
+package task3.part2;
 
-public class SlowClock implements Clock{
+import task3.part2.Clock;
+
+public class SlowClock implements Clock {
     private double time=0;
     private boolean stop;
 
