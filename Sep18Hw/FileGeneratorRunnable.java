@@ -33,7 +33,7 @@ public class FileGeneratorRunnable {
 
     }
 
-    synchronized static void print(FileWriter file) {//synchronized method
+   static void print(FileWriter file) {//synchronized method
         for (int i = 1; i <= 10000; i++) {
            // System.out.println(n * i);
             try {
